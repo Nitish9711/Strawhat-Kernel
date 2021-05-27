@@ -1,0 +1,23 @@
+1. Tic Tac toe
+---to run iso file of tic tac toe---
+   qemu-system-x86_64 -cdrom TicTacToe.iso
+
+---to run and compile code ---
+    ls
+    chmod +x run.sh
+    ./run.sh
+
+
+2. Ping Pong 
+---  to run on qemu -- 
+1. open pong.h file 
+a. uncomment line 15 and comment line 22
+
+
+3. to compile any assembly file - nasm -f bin hello_world.asm -o hello_world.bin
+ to open in qemu after compilation- qemu-system-x86_64 hello_world.bin
+
+ usb mounting procedure 
+ 1. lsblk   - show devices
+ 2. mkfs.vfat -I /dev/sdb
+ 3. 
